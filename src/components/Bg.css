@@ -1,0 +1,10 @@
+.particles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+  background: 	#000000 ;
+  pointer-events: none; /* So user interactions go to front content */
+}
