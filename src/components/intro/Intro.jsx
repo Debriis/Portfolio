@@ -10,12 +10,12 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <div style={{ position: 'relative', height: '100px', marginBottom: '1rem' }}>
+          <div className="name-container">
               <TextPressure
                 text="Ayush"
                 flex={true}
                 alpha={false}
-                stroke={true}
+                stroke={false}
                 width={true}
                 weight={true}
                 italic={true}
@@ -24,6 +24,7 @@ const Intro = () => {
                 minFontSize={window.innerWidth <= 480 ? 28 : 64}
               />
             </div>
+
 
           <div className="i-title styled-title">
             <span className="static-part">I am a</span>{" "}

@@ -22,15 +22,15 @@ const cardData = [
   },
   {
     color: "#C28C8C",
-    title: "Languages: C, Cpp, Python, Java,",
-    description: "Framework : React js, Mongodb, Nodejs, Express js",
+    title: "Tech Stack",
+    description: `Languages: C, C++, Python, Java\nFrontend: React.js, Vite\nBackend: Node.js, Express.js\nDatabase: MongoDB`,
     label: "Skills / Stack Visual",
   },
   {
     color: "#D9A8A8",
     title: "Automation",
     description: "Streamline workflows",
-    label: " Services Offered",
+    label: "Services Offered",
   },
   {
     color: "#ceabb4ff",
