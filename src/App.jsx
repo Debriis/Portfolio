@@ -25,7 +25,7 @@ const App = () => {
       >
         <Bg
           particleColors={['#F4AFC2', '#F4AFC2']}
-          particleCount={100}
+          particleCount={700}
           particleSpread={10}
           speed={0.1}
           particleBaseSize={100}

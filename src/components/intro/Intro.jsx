@@ -24,7 +24,7 @@ const Intro = () => {
                 minFontSize={window.innerWidth <= 480 ? 28 : 64}
               />
             </div>
-
+`
 
           <div className="i-title styled-title">
             <span className="static-part">I am a</span>{" "}
