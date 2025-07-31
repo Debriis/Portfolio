@@ -14,13 +14,13 @@ const About = () => {
       </div>
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">Heyoo guys 👋</p>
+        <p className="a-sub">Heyoo guys </p>
 
-        <p className="a-desc">💻 I'm a MERN stack developer & B.Tech CSE student at SRM University, Chennai.</p>
-        <p className="a-desc">🚀 I build scalable, responsive web apps using React, Node.js, MongoDB & Express.</p>
-        <p className="a-desc">🎨 I love clean code, intuitive design, and seamless user experiences.</p>
-        <p className="a-desc">🛠️ I’m always exploring new tools, better UI/UX patterns, and smoother workflows.</p>
-        <p className="a-desc">🤝 Open to internships, freelance projects, and collaborations with creative minds.</p>
+        <p className="a-desc"> I'm a MERN stack developer & B.Tech CSE student at SRM University, Chennai.</p>
+        <p className="a-desc"> I build scalable, responsive web apps using React, Node.js, MongoDB & Express.</p>
+        <p className="a-desc"> I love clean code, intuitive design, and seamless user experiences.</p>
+        <p className="a-desc"> I’m always exploring new tools, better UI/UX patterns, and smoother workflows.</p>
+        <p className="a-desc"> Open to internships, freelance projects, and collaborations with creative minds.</p>
 
         {/* 
         <div className="a-award">
