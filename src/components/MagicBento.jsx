@@ -16,34 +16,29 @@
     },
     {
       color: "#3A2328",
-      title: "Dashboard",
-      description: "Strong commpunication skills\nExperience in Agile methodologies\nTeam player with a positive attitude",
+      title: "Strong communication skills",
+      description: "Team player with a positive attitude",
       label: "Soft Skills",
     },
     {
       color: "#C28C8C",
-      title: "Tech Stack",
-      description: `Languages: C, C++, Python, Java\nFrontend: React.js, Vite\nBackend: Node.js, Express.js\nDatabase: MongoDB`,
+      title: "Languages: C, C++, Python, Java",
+      description: "Frontend: React.js, Vite\nBackend: Node.js, Express.js\nDatabase: MongoDB",
       label: "Skills / Stack Visual",
     },
     {
       color: "#D9A8A8",
-      title: "Automation",
-      description: "Website development graphic designing\n",
+      title: "Web devlopment",
+      description: "Graphic designing",
       label: "Services Offered",
     },
     {
       color: "#ceabb4ff",
-      title: "Integration",
-      description: "Connect favorite tools",
-      label: "Connectivity",
+      title: "Web devloper",
+      description: "UI/UX designer",
+      label: "Position",
     },
-    {
-      color: "#9C6C70",
-      title: "Security",
-      description: "Enterprise-grade protection",
-      label: "Protection",
-    },
+
   ];
 
   const createParticleElement = (
