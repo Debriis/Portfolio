@@ -8,21 +8,24 @@ import Skills from "./components/skills/Skills.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import ScrollVelocity from "./components/ScrollVelocity.jsx";
 import MagicBento from "./components/MagicBento.jsx";
+import ScrollFadeIn from "./components/common/ScrollFadeIn.jsx";
+
 
 const App = () => {
   return (
     <div>
       
       <div
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100vw',
-          height: '100vh',
-          zIndex: -1,
-        }}
-      >
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            zIndex: -1,
+          }}
+        >
+
         <Bg
           particleColors={['#F4AFC2', '#F4AFC2']}
           particleCount={700}
@@ -35,29 +38,39 @@ const App = () => {
         />
       </div>
 
-      {/* Main content scrolls over background */}
+      
       <div style={{ position: 'relative', zIndex: 1 }}>
+
+
         
+          <Intro />
         
-        <Intro />
-        <ScrollVelocity />
-        <About />
+
         
-        <MagicBento 
-  textAutoHide={true}
-  enableStars={true}
-  enableSpotlight={true}
-  enableBorderGlow={true}
-  enableTilt={false}
-  enableMagnetism={true}
-  clickEffect={true}
-  spotlightRadius={300}
-  particleCount={20}
-  glowColor="244, 175, 194"
-/>
-        
-        <Contact />
-        {/* Add more components here as needed */}
+
+        <ScrollFadeIn delay={0.2}>
+          <About />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn delay={0.2}>
+        <MagicBento
+          textAutoHide={true}
+          enableStars={true}
+          enableSpotlight={true}
+          enableBorderGlow={true}
+          enableTilt={false}
+          enableMagnetism={true}
+          clickEffect={true}
+          spotlightRadius={300}
+          particleCount={20}
+          glowColor="244, 175, 194"
+        />
+        </ScrollFadeIn>
+
+        <ScrollFadeIn delay={0.2}>
+          <Contact />
+        </ScrollFadeIn>
+
       </div>
     </div>
   );
