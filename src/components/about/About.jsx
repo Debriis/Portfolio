@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import cutieImg from '../../img/cutie.jpg';
+import nigger from '../../img/Ayush.jpg';
 import TextTrail from './TextTrail';
 
 const About = () => {
@@ -8,7 +8,7 @@ const About = () => {
     <div className="a">
       <div className="a-left">
         <div className="a-card bg">
-         {<img src={cutieImg} alt="About me" className="a-img" /> }
+         {<img src={nigger} alt="About me" className="a-img" /> }
         </div>
         <div className="a-card">
           {<img src={cutieImg} alt="About me" className="a-img" /> }
