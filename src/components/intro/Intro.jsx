@@ -56,7 +56,7 @@ const Intro = () => {
               <img src="/icons/insta.png" alt="Instagram" />
             </a>
 
-           <a href="/icons/Ayushresumefinal.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+           <a href="/icons/Ayushhh.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
   <img src="/icons/resume.png" alt="Resume Icon" />
   <span>Resume</span>
 </a>
